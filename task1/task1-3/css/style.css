@@ -1,0 +1,46 @@
+.container {
+    margin: 20px;
+    border: 1px solid #999;
+    background-color: #eee; 
+    position: relative;  
+}
+section {
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+.logo {
+    width: 200px;
+    padding: 20px 0 20px 20px;
+    float: left;
+}
+.logo span{
+   vertical-align: top;
+}
+.us {
+    position: absolute;
+    left: 220px;
+    right: 140px;
+}
+.us article {
+    padding: 20px;
+}
+.us p {
+    text-indent: 2em;
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.photo {
+    width: 120px;
+    float: right; 
+}
+.photo img {
+    padding: 20px;
+}
+.clearfix {
+    overflow: auto;
+    zoom:1;
+}
