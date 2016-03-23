@@ -1,0 +1,439 @@
+body {
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    background-color: #212121;
+    cursor: default;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 980px;
+    height: 1386px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-border: 1px solid #ccc;
+    -moz-border: 1px solid #ccc;
+    padding: 0 45px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+nav {
+    margin: 0 auto;
+    width: 100%;
+    height: 61px;
+    border-bottom: 1px solid #ccc;
+    -moz-border-bottom: 1px solid #ccc;
+    -webkit-border-bottom: 1px solid #ccc;
+    font: 12px/24px "Microsoft Yahei";
+    overflow: hidden;
+}
+
+nav .film_name {
+    width: 110px;
+    height: 61px;
+    float: left;
+    color: #fff;
+    background-color: rgb(226, 143, 29);
+}
+
+nav .time {
+    float: right;
+    color: rgb(188, 16, 6);
+}
+
+nav .film_name,
+.time {
+    padding-top: 38px;
+}
+
+.container,
+.whw {
+    padding: 30px 0;
+}
+
+.banner {
+    position: relative;
+    width: 641px;
+    height: 301px;
+}
+
+.banner .left_box,
+.right_box {
+    width: 191px;
+    height: 301px;
+}
+
+.banner .left_box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(188, 16, 6, 0.5);
+}
+
+.banner .right_box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(202, 152, 91, 0.5);
+}
+
+.tik_news {
+    width: 203px;
+    height: 301px;
+    border-top: 2px solid rgb(188, 16, 6);
+    -moz-border-top: 2px solid rgb(188, 16, 6);
+    -webkit-border-top: 2px solid rgb(188, 16, 6);
+    float: right;
+    position: relative;
+}
+
+.tik_news .big_txt {
+    font: 24px/30px "Microsoft Yahei";
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+
+.tik_news .small_txt {
+    font: 12px/10px "楷体";
+    color: #676767;
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.tik_news .superBig {
+    font-size: 117px;
+    color: #75B86B;
+    font-style: italic;
+    position: absolute;
+    top: 90px;
+    right: 20px;
+}
+
+.bottom_txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom_txt .big {
+    font-size: 55px;
+    line-height: 55px;
+    color: rgb(188, 16, 6);
+}
+
+.bottom_txt .normal {
+    width: 200px;
+    font-size: 21px;
+    color: rgb(226, 143, 29);
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+    padding: 0;
+}
+
+.bottom_txt .normal span {
+    color: #ccc;
+    font-size: 12px;
+    display: block;
+    padding: 0;
+}
+
+.whw {
+    width: 641px;
+    height: auto;
+    overflow: auto;
+    zoom: 1;
+    text-align: justify;
+}
+
+.whw h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.whw .what,
+.how,
+.when {
+    margin-right: 30px;
+    width: 29%;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.whw .when {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.whw .what a {
+    color: rgb(226, 143, 29);
+    font-weight: bold;
+}
+
+.whw .how a {
+    color: rgb(251, 62, 21);
+}
+
+.whw .when a {
+    color: rgb(188, 16, 6);
+}
+
+.whw .when .pers {
+    margin-top: 16px;
+}
+
+.whw .when .pers p {
+    font-size: 12px;
+}
+
+.whw .when .pers span {
+    color: rgba(188, 16, 6, 0.7);
+    font-style: italic;
+}
+
+#bottom .right_wrap {
+    float: right;
+    width: 458px;
+    height: 275px;
+    position: relative;
+}
+
+#bottom {
+    overflow: auto;
+    zoom: 1;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    -moz-border-bottom: 1px solid #ccc;
+    -webkit-border-bottom: 1px solid #ccc;
+}
+
+.mask {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 458px;
+    height: 61px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: table;
+}
+
+.txt_mask {
+    display: table-cell;
+    vertical-align: middle;
+    width: 280px;
+}
+
+.txt_mask h2 {
+    margin-left: 15px;
+    padding: 0 10px;
+    display: inline-block;
+    color: #fff;
+    height: 44px;
+    line-height: 44px;
+    border-left: 3px solid #fff;
+    -moz-border-left: 3px solid #fff;
+    -webkit-border-left: 3px solid #fff;
+}
+
+.txt_mask p {
+    color: rgb(226, 143, 29);
+    display: inline-block;
+    font-style: italic;
+    word-spacing: 140%;
+}
+
+.left_wrap {
+    margin-right: 480px;
+}
+
+.left_wrap .title_wrap {
+    border-bottom: 2px solid rgb(188, 16, 6);
+    -moz-border-bottom: 2px solid rgb(188, 16, 6);
+    -webkit-border-bottom: 2px solid rgb(188, 16, 6);
+}
+
+.title_wrap {
+    font-family: "黑体";
+}
+
+.title_wrap h2,
+h3 {
+    color: #ccc;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.title_wrap i {
+    font-size: 72px;
+    color: #f5e327;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: -15px;
+}
+
+.title_wrap p {
+    font-size: 33px;
+    color: #11456b;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.left_wrap .txt_left {
+    margin-top: 30px;
+}
+
+.left_wrap .txt_left p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #767777;
+    text-align: justify;
+}
+
+.left_wrap .txt_left .big {
+    font-size: 70px;
+    color: rgb(188, 16, 6);
+    float: left;
+    line-height: 70px;
+    padding-right: 10px;
+}
+
+.left_wrap .txt_left img {
+    width: 180px;
+    height: auto;
+    float: right;
+    padding: 10px 0 10px 10px;
+}
+
+.last_wrap {
+    margin-top: 20px;
+    background-color: #eee;
+    width: 458px;
+    height: 380px;
+    position: relative;
+}
+
+.last_wrap ul li {
+    list-style: none;
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: -5px;
+}
+
+.last_wrap ul {
+    padding: 20px 30px;
+}
+
+.last_wrap .name {
+    font-style: italic;
+    font-size: 12px;
+    color: #8d8d8d;
+    float: right;
+    font-family: cursive;
+}
+
+.last_wrap .triangle {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid rgb(188, 16, 6);
+}
+
+.last_wrap .lb_wrap {
+    width: 260px;
+    height: 160px;
+    background-color: rgb(226, 143, 29);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.last_wrap .rb_wrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: 280px;
+    height: 160px;
+}
+
+.last_wrap .rb_wrap p {
+    font: 14px/20px "黑体";
+    font-style: italic;
+}
+
+.last_wrap .rb_wrap .mark1,.mark2 {
+    font-size: 70px;
+    color: rgb(188, 16, 6);
+    font-family: "黑体";
+}
+.last_wrap .rb_wrap p
+{
+    text-indent: 2em;
+    padding-right: 20px;
+    text-align: justify;
+}
+.last_wrap .rb_wrap .mark1
+{
+    position: absolute;
+    left: -40px;
+    top: -10px;
+}
+.last_wrap .rb_wrap .mark2
+{
+    position: absolute;
+    bottom: -15px;
+    left: 100px;
+}
+
+.lb_wrap .left
+{
+    float: left;
+    font-size: 110px;
+    color: #fff;
+    line-height: 86px;
+}
+.lb_wrap .right
+{
+    margin-left: 80px;
+    border-left: 2px solid #fff;
+    -moz-border-left: 2px solid #fff;
+    -webkit-border-left: 2px solid #fff;
+    padding-left: 10px;
+    height: 86px;
+}
+.lb_wrap .txt_wrap
+{
+margin-top: 27px;
+    padding: 10px;
+}
+.lb_wrap .right .txt_top
+{
+    color: #fff;
+    font: 21px/24px "黑体";
+    font-style: italic;
+    padding-bottom: 5px;
+}
+.lb_wrap .right .txt_bottom
+{
+    color: #fff;
+    font-size: 12px;
+}
+footer {
+    font-size: 12px;
+    color: #aaa;
+    float: right;
+    font-family: "黑体";
+    padding-top: 5px;
+}
