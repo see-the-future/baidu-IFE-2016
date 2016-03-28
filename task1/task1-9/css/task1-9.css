@@ -4,6 +4,7 @@ body {
     font-size: 12px;
     min-width: 1600px;
 }
+
 html,
 body {
     width: 100%;
@@ -1011,6 +1012,16 @@ nav .srch_login {
     -webkit-border-bottom: 1px solid #73bade;
 }
 
+.part4_lbottom .year,
+.mouth,
+.mark_date {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../images/spirit.png) no-repeat top -500px right;
+    padding-left: 10px;
+}
+
 .part4_lbottom .calendar_wrap .show_calendar {
     width: 100%;
     text-align: center;
@@ -1175,7 +1186,6 @@ nav .srch_login {
     line-height: 30px;
     display: inline-block;
     margin-left: 5px;
-
 }
 
 .part4_right #sub_plan {
