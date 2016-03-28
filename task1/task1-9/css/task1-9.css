@@ -2,9 +2,8 @@ body {
     font-family: "Microsoft Yahei";
     background-color: rgb(240, 240, 240);
     font-size: 12px;
-    min-width: 1920px;
+    min-width: 1600px;
 }
-
 html,
 body {
     width: 100%;
@@ -19,8 +18,6 @@ body {
 a {
     text-decoration: none;
 }
-
-
 /*logo+search+login css*/
 
 ul li {
@@ -103,8 +100,6 @@ nav .srch_login {
 #login:focus {
     color: #fff;
 }
-
-
 /*left menu css*/
 
 #mainbody {
@@ -291,6 +286,7 @@ nav .srch_login {
     color: #fff;
 }
 /*right nav css*/
+
 #right {
     width: 100%;
     padding-left: 270px;
@@ -348,11 +344,7 @@ nav .srch_login {
     zoom: 1;
     margin-top: 50px;
 }
-
-
 /*right mainbody css*/
-
-
 /*part1 css*/
 
 #right .part1_wrap {
@@ -466,8 +458,6 @@ nav .srch_login {
 #right .right_wrap #num_sold select {
     width: 200px;
 }
-
-
 /*part2 css*/
 
 #right .part2_wrap {
@@ -575,6 +565,7 @@ nav .srch_login {
     -webkit-border-top: 3px solid #2189bf;
 }
 /*part3 css*/
+
 #right .part3_wrap {
     margin-top: 30px;
     overflow: auto;
@@ -696,6 +687,7 @@ nav .srch_login {
     background-color: #e2cd47;
 }
 /*part4 css*/
+
 #right .part4_wrap {
     overflow: auto;
     zoom: 1;
@@ -1059,7 +1051,7 @@ nav .srch_login {
 }
 
 .part4_lbottom .calendar_wrap .head_btn #u_submit {
-    width: 24.3%;
+    width: 24%;
     height: 30px;
     background-color: #fff;
     outline: none;
@@ -1143,12 +1135,11 @@ nav .srch_login {
 .part4_right .my_name {
     padding-top: 10px;
     height: auto;
-    width: 200px;
+    width: 300px;
     float: right;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    padding-left: 15px;
 }
 
 .part4_right .plan_wrap #my_plan {
@@ -1172,8 +1163,10 @@ nav .srch_login {
     margin-top: 5px;
     display: block;
     font-size: 14px;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    outline: none;
+    cursor: pointer;
 }
 
 .part4_right .protocol {
@@ -1182,6 +1175,7 @@ nav .srch_login {
     line-height: 30px;
     display: inline-block;
     margin-left: 5px;
+
 }
 
 .part4_right #sub_plan {
