@@ -159,6 +159,7 @@ article{
 	display: -ms-flexbox;
 	/* IE 10 */
 	display: flex;
+	flex-flow: row;
 	text-align: center;
 }
 .content .dis-item{
