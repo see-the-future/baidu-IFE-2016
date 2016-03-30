@@ -148,18 +148,20 @@ article{
 }
 .content{
 	padding-top:20px;
-	display: -webkit-box;
-	/* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
-	display: -moz-box;
-	/* Firefox 17- */
-	display: -webkit-flex;
-	/* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
-	display: -moz-flex;
-	/* Firefox 18+ */
-	display: -ms-flexbox;
-	/* IE 10 */
-	display: flex;
-	flex-flow: row;
+	display: box;			  /* OLD - Android 4.4- */
+  display: -webkit-box;	  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;		 /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;	  /* TWEENER - IE 10 */
+  display: -webkit-flex;	 /* NEW - Chrome */
+  display: flex;			 /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  /* 09版 */
+  -webkit-box-orient: horizontal;
+  /* 12版 */
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+  flex-direction: row;
 	text-align: center;
 }
 .content .dis-item{
