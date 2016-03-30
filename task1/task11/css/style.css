@@ -10,7 +10,7 @@ html {
 
 body {
 	background-color: #EEEEEE;
-	font-size: 16px;
+	font-size: 0.32rem;
 	color: #5A5A5A;
 }
 
@@ -40,16 +40,14 @@ header a {
 header h1 {
 	line-height: 1.2rem;
 }
-
-h2 {
+h2{
 	font-family: kartika;
 	font-size: 0.44rem;
 	line-height: 0.6rem;
-	font-weight: 400;
+	font-weight: 300;
 }
-
-h3 {
-	font-size: 20px;
+h3{
+	font-size: 0.4rem;
 }
 
 nav {
@@ -73,16 +71,14 @@ nav ul li {
 nav ul .active {
 	position: relative;
 }
-
-.active span {
+.active span{
 	width: 100%;
-	height: 0.04rem;
+	height: 2px;
 	background-color: #91D4DA;
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
 }
-
 nav ul li a {
 	text-decoration: none;
 	color: #5A5A5A;
@@ -96,8 +92,8 @@ nav ul li a {
 	height: auto;
 	background-color: #FFFFFF;
 	text-align: center;
-	padding: 0.2rem;
-	margin-top: -0.1rem;
+	padding: 10px;
+	margin-top:-5px;
 }
 
 .tab table {
@@ -114,10 +110,9 @@ nav ul li a {
 	width: 100%;
 	margin: 0 auto;
 	border-top: 2px solid #CCCCCC;
-	padding: 0.4rem 0px;
+	padding: 20px 0px;
 	/*display: flex;
 	flex-flow: row;*/
-	display: box;
 	/* OLD - Android 4.4- */
 	display: -webkit-box;
 	/* OLD - iOS 6-, Safari 3.1-6 */
@@ -136,41 +131,41 @@ nav ul li a {
 	-moz-flex-direction: row;
 	-ms-flex-direction: row;
 	-o-flex-direction: row;
-	flex-direction: row;
+	flex-direction: row; 
 }
 
 .subtab .item {
-	width: 33%;
-	box-sizing: border-box;
+	width: 33%;	
 }
-
-.subtab .r {
-	border-right: 0.02rempx solid #CCCCCC;
+.subtab .r{
+	border-right: 1px solid #CCCCCC;
 }
-
-.item img {
+.item img{
 	width: 70%;
 }
 
-.item p {
+.item p{
 	font-size: 0.36rem;
 }
 
-article {
-	margin-top: 0.4rem;
+article{
+	margin-top: 20px;
 	padding: 10px;
 	background-color: #FFFFFF;
 }
-
-.title {
+/*.discound{
+	background-color: #FFFFFF;
+	padding: 10px;
+}*/
+.title{
 	font-size: 0.5rem;
 	line-height: 1rem;
-	border-bottom: 0.04rem solid #CCCCCC;
+	border-bottom:2px solid #CCCCCC;
 }
-
-.content {
-	padding-top: 0.4rem;
-	display: box;
+.content{
+	padding-top:20px;
+	/*display: flex;
+	flex-flow: row; */
 	/* OLD - Android 4.4- */
 	display: -webkit-box;
 	/* OLD - iOS 6-, Safari 3.1-6 */
@@ -192,62 +187,50 @@ article {
 	flex-direction: row;
 	text-align: center;
 }
-
-.content .dis-item {
+.content .dis-item{
 	width: 33%;
 }
-
-.dis-item img {
-	border: 0.02rem solid #CCCCCC;
+.dis-item img{
+	border: 1px solid #CCCCCC;
 }
-
-.dis-item p {
+.dis-item p{
 	font-size: 0.4rem;
 	line-height: 1.2rem;
 }
-
-.one-item {
+.one-item{
 	width: 35%;
 }
-
-.content img {
+.content img{
 	width: 90%;
-	margin-bottom: 0.02rem;
+	margin-bottom: 10px;
 }
-
-.two-item {
+.two-item{
 	width: 65%;
 	text-align: left;
 	position: relative;
 }
-
-.two-item h2 {
+.two-item h2{
 	position: absolute;
 	top: 0px;
-	left: 0.02rem;
+	left: 10px;
 }
-
-.two-item p {
+.two-item p{
 	line-height: 0.6rem;
 	position: absolute;
-	bottom: 0.2rem;
-	left: 0.2rem;
+	bottom: 10px;
+	left: 10px;
 }
-
-.line {
-	border-bottom: 0.02rem solid #EEEEEE;
+.line{
+	border-bottom: 1px solid #EEEEEE;
 }
-
-.photo {
-	padding: 0.2rem;
+.photo{
+	padding: 10px;
 }
-
-.photo img {
-	margin: 0.1rem 0;
+.photo img{
+	margin: 5px 0;
 	width: 32%;
 }
-
-footer {
+footer{
 	width: 100%;
 	height: 1.2rem;
 	background-color: #FFFFFF;
