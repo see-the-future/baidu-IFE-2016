@@ -141,7 +141,7 @@ nav ul li a {
 	border-right: 1px solid #CCCCCC;
 }
 .item img{
-	width: 70%;
+	width: 65%;
 }
 
 .item p{
@@ -218,7 +218,6 @@ article{
 	line-height: 0.6rem;
 	position: absolute;
 	bottom: 0.2rem;
-	left: 10px;
 }
 .line{
 	border-bottom: 1px solid #EEEEEE;
