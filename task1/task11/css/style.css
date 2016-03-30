@@ -217,7 +217,8 @@ article{
 .two-item p{
 	line-height: 0.6rem;
 	position: absolute;
-	bottom: 0.2rem;
+	bottom: 10px;
+	left:10px;
 }
 .line{
 	border-bottom: 1px solid #EEEEEE;
