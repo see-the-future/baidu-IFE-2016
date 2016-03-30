@@ -149,6 +149,8 @@ article{
 .content{
 	padding-top:20px;
 	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	flex-flow: row; 
 	text-align: center;
 }
