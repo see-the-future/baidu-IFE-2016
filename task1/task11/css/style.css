@@ -119,7 +119,8 @@ nav ul li a {
 }
 
 .subtab .item {
-	width: 32%;	
+	width: 32%;
+	box-sizing:32%;
 }
 .subtab .r{
 	border-right: 1px solid #CCCCCC;
