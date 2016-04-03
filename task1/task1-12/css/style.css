@@ -1,0 +1,179 @@
+.container{
+    padding: 30px;
+}
+thead th {
+    background-color: black;
+    text-align: left;
+    color: #fff;
+}
+tbody tr:nth-child(2n+0) {
+    background-color: lightgrey;
+}
+tbody tr:nth-child(-n+3) {
+    color: red;
+}
+.text {
+    padding: 50px 0;
+    width: 200px;
+}
+.input {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    transition: width 2s ease;
+    -moz-transition: width 2s ease;
+    -webkit-transition: width 2s ease;
+    -o-transition: width 2s ease;
+}
+.input:focus {
+    width: 200px;
+}
+.gallery {
+    width: 1500px;
+    height: 150px;
+    position: relative;
+}
+.carousel {
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.banner {
+    width: 300px;
+    height: 150px;
+}
+#banner1 {
+    background: lightgreen;
+    position: absolute;
+    animation: one 8s linear infinite;   
+}
+#banner2 {
+    background: red;
+    position: absolute;
+    animation: two 8s linear infinite;
+}
+#banner3 {
+    background: yellow;
+    position: absolute;
+    animation: three 8s linear infinite;
+}
+@keyframes one {
+    0% {left:0;}
+    25%{left: 50%;}
+    50%{left: 100%;}
+    75%{left:150%;}
+    100%{left: 200%}  
+}
+@-moz-keyframes one {
+    0% {left:0;}
+    25%{left: 50%;}
+    50%{left: 100%;}
+    75%{left:150%;}
+    100%{left: 200%}  
+}
+@-webkit-keyframes one {
+    0% {left:0;}
+    25%{left: 50%;}
+    50%{left: 100%;}
+    75%{left:150%;}
+    100%{left: 200%}  
+}
+@-o-keyframes one {
+    0% {left:0;}
+    25%{left: 50%;}
+    50%{left: 100%;}
+    75%{left:150%;}
+    100%{left: 200%}  
+}
+
+
+@keyframes two {
+    0%{left: -100%;}
+    25%{left: -50%;}
+    50%{left: 0;}
+    75%{left: 50%;}
+    100%{left: 100%}
+}
+@-moz-keyframes two {
+    0%{left: -100%;}
+    25%{left: -50%;}
+    50%{left: 0;}
+    75%{left: 50%;}
+    100%{left: 100%}
+}
+@-webkit-keyframes two {
+    0%{left: -100%;}
+    25%{left: -50%;}
+    50%{left: 0;}
+    75%{left: 50%;}
+    100%{left: 100%}
+}
+@-o-keyframes two {
+    0%{left: -100%;}
+    25%{left: -50%;}
+    50%{left: 0;}
+    75%{left: 50%;}
+    100%{left: 100%}
+}
+
+
+@keyframes three {
+    0%{left: -200%;}
+    25%{left: -150%;}
+    50%{left: -100%;}
+    75%{left: -50%%;}
+    100%{left: 0}
+}
+@-moz-keyframes three {
+    0%{left: -200%;}
+    25%{left: -150%;}
+    50%{left: -100%;}
+    75%{left: -50%%;}
+    100%{left: 0}
+}
+@-webkit-keyframes three {
+    0%{left: -200%;}
+    25%{left: -150%;}
+    50%{left: -100%;}
+    75%{left: -50%%;}
+    100%{left: 0}
+}
+@-o-keyframes three {
+    0%{left: -200%;}
+    25%{left: -150%;}
+    50%{left: -100%;}
+    75%{left: -50%%;}
+    100%{left: 0}
+}
+.icon {
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    right: -6px;
+    bottom: 0;
+    *zoom:20;
+}
+.icon a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 10px;
+    font-weight: 700;
+    width:16px;
+    height: 30px;
+    color: #fff;
+    background-color: rgba(146,154,155,0.4);
+}
+#banner1:target {
+    animation: banner1;
+}
+#banner2:target {
+    animation: banner2;
+}
+#banner3:target {
+    animation: banner3;
+}
+
+
